@@ -1,0 +1,100 @@
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/__init__.py
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/path_set_planning/kd_tree_RRTStar
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/path_set_planning/planning_cost_comparison
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/path_set_planning/planning_time_comparison
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/path_set_planning/path_repositioning
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/path_set_planning/planning_time_benchmark_comparison
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/path_set_planning/path_set_generation_benchmark
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/pkgconfig/path_set_planning.pc
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/roseus/ros/path_set_planning/manifest.l
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/path_set_planning/cmake/path_set_planningConfig-version.cmake
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/path_set_planning/cmake/path_set_planning-msg-paths.cmake
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/path_set_planning/cmake/path_set_planningConfig.cmake
+Symlinking /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/path_set_planning/cmake/path_set_planning-msg-extras.cmake
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_angle.py, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_angle.py)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/lib/python2.7/dist-packages/path_set_planning/srv/__init__.py, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/__init__.py)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_singlePt.py, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_singlePt.py)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_dualPt.py, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_dualPt.py)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_dualPtResponse.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_dualPtResponse.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_dualPtRequest.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_dualPtRequest.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_angle.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_angle.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_singlePtResponse.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_singlePtResponse.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_singlePt.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_singlePt.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_angleRequest.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_angleRequest.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_angleResponse.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_angleResponse.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_singlePtRequest.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_singlePtRequest.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/include/path_set_planning/visual_info_service_dualPt.h, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_dualPt.h)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/visual_info_service_singlePt.lisp, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/visual_info_service_singlePt.lisp)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_angle.lisp, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_angle.lisp)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/visual_info_service_angle.lisp, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/visual_info_service_angle.lisp)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/_package.lisp, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package.lisp)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_dualPt.lisp, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_dualPt.lisp)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/path_set_planning-srv.asd, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/path_set_planning-srv.asd)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/visual_info_service_dualPt.lisp, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/visual_info_service_dualPt.lisp)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_singlePt.lisp, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_singlePt.lisp)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/gennodejs/ros/path_set_planning/_index.js, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/_index.js)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/gennodejs/ros/path_set_planning/srv/visual_info_service_dualPt.js, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/visual_info_service_dualPt.js)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/gennodejs/ros/path_set_planning/srv/_index.js, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/_index.js)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/gennodejs/ros/path_set_planning/srv/visual_info_service_singlePt.js, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/visual_info_service_singlePt.js)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/gennodejs/ros/path_set_planning/srv/visual_info_service_angle.js, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/visual_info_service_angle.js)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/roseus/ros/path_set_planning/srv/visual_info_service_angle.l, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/roseus/ros/path_set_planning/srv/visual_info_service_angle.l)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/roseus/ros/path_set_planning/srv/visual_info_service_dualPt.l, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/roseus/ros/path_set_planning/srv/visual_info_service_dualPt.l)
+Cleaning: (/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/roseus/ros/path_set_planning/srv/visual_info_service_singlePt.l, /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/roseus/ros/path_set_planning/srv/visual_info_service_singlePt.l)
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_angle.py
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/__init__.py
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_singlePt.py
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/lib/python2.7/dist-packages/path_set_planning/srv/_visual_info_service_dualPt.py
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_dualPtResponse.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_dualPtRequest.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_angle.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_singlePtResponse.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_singlePt.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_angleRequest.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_angleResponse.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_singlePtRequest.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/include/path_set_planning/visual_info_service_dualPt.h
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/visual_info_service_singlePt.lisp
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_angle.lisp
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/visual_info_service_angle.lisp
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_dualPt.lisp
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/path_set_planning-srv.asd
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/visual_info_service_dualPt.lisp
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/common-lisp/ros/path_set_planning/srv/_package_visual_info_service_singlePt.lisp
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/_index.js
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/visual_info_service_dualPt.js
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/visual_info_service_singlePt.js
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/gennodejs/ros/path_set_planning/srv/visual_info_service_angle.js
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/roseus/ros/path_set_planning/srv/visual_info_service_angle.l
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/roseus/ros/path_set_planning/srv/visual_info_service_dualPt.l
+Already unlinked: {}
+Unlinking: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/share/roseus/ros/path_set_planning/srv/visual_info_service_singlePt.l
+Already unlinked: {}

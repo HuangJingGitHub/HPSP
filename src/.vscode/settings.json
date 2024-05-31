@@ -1,0 +1,11 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jing/Documents/Scripts/temp_tests/Constrained_DOM_Latest/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jing/Documents/Scripts/temp_tests/Constrained_DOM_Latest/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "cmake.configureOnOpen": false
+}

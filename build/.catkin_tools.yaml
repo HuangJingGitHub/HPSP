@@ -1,0 +1,6 @@
+devel_space: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel
+install: false
+install_space: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/install
+profile: default
+source_space: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/src
+workspace: /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release

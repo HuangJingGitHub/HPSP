@@ -1,0 +1,1 @@
+/home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/devel/.private/path_set_planning/share/roseus/ros/path_set_planning/manifest.l
