@@ -1,7 +1,0 @@
-[31m[1mCMake Error[0m at /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:151 (message):
-  add_service_files() directory not found:
-  /home/jing/Documents/Scripts/temp_tests/Path_Set_Planning_Release/src/path_set_planning/srv
-[36mCall Stack (most recent call first):[0m
-  CMakeLists.txt:61 (add_service_files)
-
-
