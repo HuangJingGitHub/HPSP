@@ -3,15 +3,17 @@ Core modules of **h**omotopic **p**ath **s**et **p**lanning (HPSP), especially t
 ## Requirements
 We use ROS to organize the project, but the code should also be compilable independently. Other libraries include OpenCV for visualization and Eigen for computation.
 ## Minimal example
-First, run `roscore` in a separate terminal. Then, go to the folder where the code is cloned. Build the project as
+Go to the folder where the code is cloned. Build the project as
 ```sh
 catkin build
 ```
 Source the project as
 ```sh
-source develop/setup.bash
+source devel/setup.bash
 ```
-Then, we can run the examples defined in the Cmake.text, e.g.,
+Then, examples defined in the CMakeLists.text is runable, e.g.,
 ```sh
-rosrun path_set_planning x
+rosrun path_set_planning planning_cost_comparison
 ```
+The source code file name of executables can be found in the CMakeLists.text. Changes can be made to source code for different tests.
+## TODO
