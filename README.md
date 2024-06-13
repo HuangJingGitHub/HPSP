@@ -15,5 +15,5 @@ Then, examples defined in the CMakeLists.text is runable, e.g.,
 ```sh
 rosrun path_set_planning planning_cost_comparison
 ```
-The source code file name of executables can be found in the CMakeLists.text. Changes can be made to source code for different tests.
+The source code file name of executables can be found in the CMakeLists.text. Changes can be made to source code for different test configurations.
 ## TODO
