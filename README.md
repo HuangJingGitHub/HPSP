@@ -16,4 +16,15 @@ Then, examples defined in the CMakeLists.text is runable, e.g.,
 rosrun path_set_planning planning_cost_comparison
 ```
 The source code file name of executables can be found in the CMakeLists.text. Changes can be made to source code for different test configurations.
+
+If you find the code helpful or use it in your projects, please cite:
+```sh
+@inproceedings{huang2024homotopic,
+  title={Homotopic path set planning for robot manipulation and navigation},
+  author={Huang, Jing and Tang, Yunxi and Au, Kwok Wai Samuel},
+  booktitle={Robotics: Science and Systems},
+  pages={1--16},
+  year={2024}
+}
+```
 ## TODO
