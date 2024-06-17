@@ -28,3 +28,4 @@ If you find the code helpful or use it in your projects, please cite:
 }
 ```
 ## TODO
+The current version does not guarantee the final path set is always collision free as obstacle dimensions are simplified. Refined processing needs to be done.
