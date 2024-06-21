@@ -15,7 +15,7 @@ Then, examples defined in the CMakeLists.text is runable, e.g.,
 ```sh
 rosrun path_set_planning planning_cost_comparison
 ```
-The source code file name of executables can be found in the CMakeLists.text. Changes can be made to source code for different test configurations.
+The source code file name of executables can be found in the CMakeLists.text. Changes can be made to the source code for different test configurations.
 
 If you find the code helpful or use it in your projects, please cite:
 ```sh
@@ -28,4 +28,4 @@ If you find the code helpful or use it in your projects, please cite:
 }
 ```
 ## TODO
-The current version does not guarantee the final path set is always collision free as obstacle dimensions are simplified. Refined processing needs to be done.
+The current version does not guarantee the final path set is collision-free as obstacle dimensions are simplified. Refined processing needs to be done.
