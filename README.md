@@ -28,4 +28,4 @@ If you find the code helpful or use it in your projects, please cite:
 }
 ```
 ## TODO
-The current version does not ensure the final path set is collision-free if obstacle sizes are significant. Refined processing needs to be developed.
+The current version does not ensure the final path set is collision-free if obstacle sizes are significant. Refined processing is to be done.
