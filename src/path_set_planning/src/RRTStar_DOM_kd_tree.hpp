@@ -40,7 +40,7 @@ public:
     int MAX_GRAPH_SIZE = 10000;
     int CUR_GRAPH_SIZE = 0;
     int update_cost_cnt_ = 0;
-    bool plan_scuess_ = false;
+    bool plan_success_ = false;
 
     RRTStarPlanner(): start_node_(nullptr), target_node_(nullptr) {}
     RRTStarPlanner(Point2f start, Point2f target, vector<PolygonObstacle> obs, float step_len = 18, 
@@ -88,7 +88,7 @@ public:
 
     bool Plan(Mat source_img, float interior_delta = 0.01, bool plan_in_interior = false) {            
         srand(time(NULL));
-        plan_scuess_ = false;
+        plan_success_ = false;
         float div_width = RAND_MAX / config_size_.width,
               div_height = RAND_MAX / config_size_.height,
               min_cost = FLT_MAX;
@@ -138,7 +138,7 @@ public:
                         target_node_->parent = new_node;
                         min_cost = new_node->cost;
                     }      
-                    plan_scuess_ = true;
+                    plan_success_ = true;
                 }
                 CUR_GRAPH_SIZE++;
                 // circle(source_img, new_node->pos, 3, Scalar(0,255,0), -1);
@@ -146,7 +146,7 @@ public:
             else    
                 delete new_node;
 
-            if (cost_function_type_ == 2 && sample_times >= 20000 && plan_scuess_ == false)
+            if (cost_function_type_ == 2 && sample_times >= 20000 && plan_success_ == false)
                 return false;
 
 /*             circle(source_img, start_pos_, 4, Scalar(255,0,0), -1);
@@ -156,18 +156,18 @@ public:
             if (CUR_GRAPH_SIZE == MAX_GRAPH_SIZE)
                 destroyWindow("RRT* path planning"); */
         }
-        if (plan_scuess_ == false)
+        if (plan_success_ == false)
             std::cout << "MAX_GRAPH_SIZE: " << MAX_GRAPH_SIZE << " is achieved with no path founded.\n";
         else
             std::cout << "Path found with cost: " << min_cost
                  << "\nTotal sample number: " << sample_times
                  << '\n';   
-        return plan_scuess_;
+        return plan_success_;
     }
 
     bool PlanHomotopicPath(Mat source_img, std::vector<Point2f>& reference_path, Point2f initial_pt, Point2f target_pt) {       
         srand(time(NULL));
-        plan_scuess_ = false;
+        plan_success_ = false;
         float div_width = RAND_MAX / config_size_.width,
               div_height = RAND_MAX / config_size_.height,
               min_cost = FLT_MAX;
@@ -203,7 +203,7 @@ public:
                         target_node_->parent = new_node;
                         min_cost = new_node->cost;
                     }      
-                    plan_scuess_ = true;
+                    plan_success_ = true;
                 }
                 CUR_GRAPH_SIZE++;
                 // circle(source_img, new_node->pos, 3, Scalar(0,255,0), -1);
@@ -212,12 +212,12 @@ public:
                 delete new_node;
 
         }
-        if (plan_scuess_ == false)
+        if (plan_success_ == false)
             std::cout << "MAX_GRAPH_SIZE: " << MAX_GRAPH_SIZE << " is achieved with no path founded.\n";
         else
             std::cout << "Path found with cost: " << min_cost
                  << '\n';   
-        return plan_scuess_;
+        return plan_success_;
     }
     
     bool PtPathHomotopyCheck(const Point2f& test_pt, const std::vector<Point2f>& reference_path, float lower_bound = 2, float upper_bound = 25) {
@@ -431,7 +431,7 @@ public:
 
     std::vector<RRTStarNode*> GetPath() {
         std::vector<RRTStarNode*> res;
-        if (!plan_scuess_) {
+        if (!plan_success_) {
             std::cout << "No valid path is available.\n";
             return res;
         }
@@ -477,7 +477,7 @@ RRTStarPlanner::RRTStarPlanner(const RRTStarPlanner& planner) {
         *target_node_ = *(planner.target_node_);
     MAX_GRAPH_SIZE = planner.MAX_GRAPH_SIZE;
     CUR_GRAPH_SIZE = planner.CUR_GRAPH_SIZE;
-    plan_scuess_ = planner.plan_scuess_;        
+    plan_success_ = planner.plan_success_;        
 }
 
 RRTStarPlanner& RRTStarPlanner::operator=(const RRTStarPlanner& rhs) {
@@ -497,7 +497,7 @@ RRTStarPlanner& RRTStarPlanner::operator=(const RRTStarPlanner& rhs) {
         *target_node_ = *(rhs.target_node_);
     MAX_GRAPH_SIZE = rhs.MAX_GRAPH_SIZE;
     CUR_GRAPH_SIZE = rhs.CUR_GRAPH_SIZE;
-    plan_scuess_ = rhs.plan_scuess_;
+    plan_success_ = rhs.plan_success_;
 }
 
 #endif
