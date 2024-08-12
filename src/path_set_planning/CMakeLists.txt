@@ -221,7 +221,7 @@ target_link_libraries(planning_time_benchmark_comparison ${OpenCV_LIBS})
 add_executable(path_repositioning src/path_repositioning_test.cpp)
 target_link_libraries(path_repositioning ${OpenCV_LIBS})
 
-# add_executable(path_set_generation_test src/path_set_generation_.cpp)
+# add_executable(path_set_generation_test src/path_set_generation_new.cpp)
 # target_link_libraries(path_set_generation_test ${OpenCV_LIBS})
 
 add_executable(path_set_generation_benchmark src/path_set_generation_benchmark.cpp)
