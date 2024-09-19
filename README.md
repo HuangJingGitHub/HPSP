@@ -28,4 +28,4 @@ If you find the code helpful or use it in your projects, please cite:
 }
 ```
 ## TODO
-The current version may have the final path set is collision if obstacle sizes are large. Refined processing is to be done.
+The current version may have the final path set is collision if obstacle sizes are large. Refined processing is to be done and your contribution is welcomed.
