@@ -51,12 +51,8 @@ int Orientation(const Point2f& p1, const Point2f& p2, const Point2f& p3) {
         return 0;  
 }
 
+/// check if point q is on the segment p1-p2 when the three points are colinear
 bool OnSegment(const Point2f& p1, const Point2f& p2, const Point2f& q) {  
-// check if point q is on the segment p1-p2 when the three points are colinear
-/*     if (q.x <= max(p1.x, p2.x) && q.x >= min(p1.x, p2.x)
-        && q.y <= max(p1.y, p2.y) && q.y >= min(p1.y, p2.y))
-            return true;
-    return false; */
     Point2f vec_1 = p1 - q, vec_2 = p2 - q;
     float inner_product = vec_1.x * vec_2.x + vec_1.y * vec_2.y;
     return inner_product <= 0;
@@ -98,10 +94,8 @@ Point2f ClosestPtOnSegmentToPt(const Point2f& p1, const Point2f& p2, const Point
     return res_pt;
 }
 
-
-
+/// Segment p1-p2, q1-q2 intersect, otherwise, it will return the intersection point of two lines.
 Point2f GetSegmentsIntersectionPt(const Point2f& p1, const Point2f& p2, const Point2f& q1, const Point2f& q2) {
- // Segment p1-p2, q1-q2 intersect, otherwise will return intersection point of two lines.
     if (abs(p1.x - p2.x) < 1e-4 && abs(q1.x - q2.x) > 1e-4)
         return Point2f(p1.x, q1.y + (q1.y - q2.y) / (q1.x - q2.x) * (p1.x - q1.x));
     else if (abs(p1.x - p2.x) > 1e-4 && abs(q1.x - q2.x) < 1e-4)
@@ -131,7 +125,7 @@ vector<Point2f> GetEndsOfColinearPts(const vector<Point2f>& points) {
     float x_min = points[0].x, x_max = x_min;
     for (int i = 1; i < points.size(); i++) {
         x_min = min(x_min, points[i].x);
-        x_max = min(x_max, points[i].x);
+        x_max = max(x_max, points[i].x);
     }
 
     vector<Point2f> res;
