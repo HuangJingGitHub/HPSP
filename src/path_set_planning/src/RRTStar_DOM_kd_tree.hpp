@@ -113,7 +113,7 @@ public:
             // smaller than step_len_ / 2 to target_pos_. Nodes with the same position may form a loop of parent-child chain after rewiring BECAUSE
             // FLOAT LOSES PRECISION IN COMPUTATION. Suppose near_node and new_node have the same position. The cost updated by linking new_node and 
             // near_node should be equivalent to near_node->cost, and rewiring should not be performed. However, the computed updated cost may be 
-            // a lit smaller than near_node->cost due to float precision problem. As such, parent-child relation is wrongly updated and possibly 
+            // a bit smaller than near_node->cost due to float precision problem. As such, parent-child relation is wrongly updated and possibly 
             // leading to a loop in the tree though the algorithm is sound.
 
             RRTStarNode* nearest_node = kd_tree_.FindNearestNode(rand_pos);           
