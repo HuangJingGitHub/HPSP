@@ -72,7 +72,7 @@ public:
         extended_visibility_passage_pair_ = extended_visibility_check_res.first;
         extended_visibility_passage_pts_ = extended_visibility_check_res.second; 
 
-        std::cout << "RRT* path planner instanced with cost functio type: " << cost_function_type_ 
+        std::cout << "RRT* path planner instanced with cost function type: " << cost_function_type_ 
                 << "\n(Any value not equal to 1 or 2: Default cost function: len - weight * passed_min_passage_width"
                 << "\n1: Ratio cost function: len / passed_min_passage_width)"
                 << "\n2: Path length cost function with clearance limit\n";
