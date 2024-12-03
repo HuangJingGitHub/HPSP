@@ -149,7 +149,7 @@ public:
             if (cost_function_type_ == 2 && sample_times >= 20000 && plan_success_ == false)
                 return false;
 
-/*             circle(source_img, start_pos_, 4, Scalar(255,0,0), -1);
+            /* circle(source_img, start_pos_, 4, Scalar(255,0,0), -1);
             circle(source_img, target_pos_, 4, Scalar(255,0,0), -1);
             imshow("RRT* path planning", source_img);
             waitKey(1);
