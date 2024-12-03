@@ -213,10 +213,9 @@ public:
 
         }
         if (plan_success_ == false)
-            std::cout << "MAX_GRAPH_SIZE: " << MAX_GRAPH_SIZE << " is achieved with no path founded.\n";
+            std::cout << "MAX_GRAPH_SIZE: " << MAX_GRAPH_SIZE << " is achieved with no path found.\n";
         else
-            std::cout << "Path found with cost: " << min_cost
-                 << '\n';   
+            std::cout << "Path found with cost: " << min_cost << '\n';   
         return plan_success_;
     }
     
