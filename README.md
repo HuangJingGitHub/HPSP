@@ -1,5 +1,5 @@
 # HPSP
-Core modules of **h**omotopic **p**ath **s**et **p**lanning (HPSP), e.g., the module of passage-aware optimal path planning based on sampling-based planners (RRT*). It is in active development.
+Core modules of **h**omotopic **p**ath **s**et **p**lanning (HPSP), e.g., the module of passage-aware optimal path planning based on sampling-based planners (RRT*). It is in development.
 ## Requirements
 We use ROS to organize the project, but the code should be compilable independently. Other dependent libraries include OpenCV for visualization and Eigen for computation.
 ## Minimal example
